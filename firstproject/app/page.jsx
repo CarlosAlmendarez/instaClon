@@ -1,3 +1,8 @@
+'use client'
+import {useState} from 'react'
+
 export default function HomePage(){
-    return <h1>Hello World</h1>
+    return <section>
+        <h1>Hello World</h1>
+    </section>
 }
