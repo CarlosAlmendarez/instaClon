@@ -11,7 +11,16 @@ body {
 }
 
 body {
-  background-color: #fafafa;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #fdf2f8 0%,
+    #f3e8ff 25%,
+    #e0f2fe 50%,
+    #fefce8 75%,
+    #fdf2f8 100%
+  );
+  background-attachment: fixed;
   color: #262626;
 }
 
