@@ -1,0 +1,130 @@
+.feed {
+  max-width: 470px;
+  margin: 0 auto;
+  padding: 24px 0 48px;
+}
+
+.feedTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.feedTitle img {
+  filter: none;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.postHeaderText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  flex: 1;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.location {
+  font-size: 12px;
+  color: #262626;
+}
+
+.moreButton {
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  color: #262626;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: #efefef;
+}
+
+.postImage {
+  object-fit: cover;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px 0;
+}
+
+.actionsLeft {
+  display: flex;
+  gap: 2px;
+  margin-left: -8px;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  transition: transform 0.1s ease;
+}
+
+.iconButton:active {
+  transform: scale(1.15);
+}
+
+.likes {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 14px;
+  margin-top: 2px;
+}
+
+.caption {
+  font-size: 14px;
+  padding: 4px 14px 0;
+}
+
+.viewComments {
+  font-size: 14px;
+  color: #8e8e8e;
+  padding: 4px 14px 0;
+}
+
+.timestamp {
+  font-size: 11px;
+  color: #8e8e8e;
+  text-transform: uppercase;
+  padding: 6px 14px 12px;
+  letter-spacing: 0.2px;
+}
